@@ -1,12 +1,10 @@
-.content {padding:0 15px; margin:0 15px 0 15px; background-color: gray}
-.content h2 {text-align: center; padding-top: 10px}
-h1 {text-align: center;}
-.navbar {background-color: aquamarine; margin-bottom: 0;}
-.navbar-brand {margin-left:15px !important;}
-.navbar-nav {background-color: rgb(127, 255, 170); margin: 0;}
-#menuOptions {padding: 0;}
-#menuOptions li {text-align: center; font-size: 1.3em;}
-.container-fluid {padding: 0;}
-@media(max-width : 767px) {
-    .content {margin: 0 80px 0 80px;}
+.navbar {background-color: gray; margin-bottom: 0;} 
+.navbar-nav {background-color: transparent; margin-bottom: 0px; font-size: 16px;}
+.navbar-default .navbar-brand {color: black}
+.navbar-default .navbar-toggle .icon-bar { background-color: black;}
+.menuCaption {background-color:transparent;}
+.menuOneContainer p, .menuOneCaption h2 {padding: 10px; background-color: gray; margin-bottom: 0;}
+h1 {margin: 10px 0 20px 0;}
+@media screen and (max-width: 767px) {
+    .menuOneContainer p, .menuOneCaption h2 {padding: 5%; background-color: gray; margin: 0; margin: 0 15% 0 15%;}
 }
